@@ -1,28 +1,3 @@
-select * from flights
-where distance > 4900;
-
-select  distinct(flight),origin,  distance from flights
-order by distance
-desc
-limit 5;
-
-select max(distance) from flights.flights;
-
-SELECT
-LTRIM('   hello') as 'answer';
-
-SELECT left(now(),4);
-
-select round(pi(), 1);
-
-SELECT power(pi(), 2);
-SELECT POWER(5, 2);
-SELECT POWER(25, .5);
-
-select * from planes;
-
-select distinct(origin) from flights;
-
 # 1. Which destination in the flights database is the furthest distance away, based on information in the flights table.
 # Show the SQL query(s) that support your conclusion.
 # Based on the distance, it looks like JFK to HNL airport is the furthest away by distance
