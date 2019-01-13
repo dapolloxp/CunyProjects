@@ -10,7 +10,7 @@ CREATE TABLE videos (
   URL nchar(50)
   );
   
-  DROP TABLE videos;
+
   
   
 CREATE TABLE VideoReviews (
